@@ -1,0 +1,520 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+.btn_read {
+  padding: 2rem 4rem;
+  background-color: #910002;
+  border-radius: 0.2rem;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2.4rem;
+  color: #F7F8FA;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.home__advantages__rectangle {
+  width: 25rem;
+  height: 26rem;
+  margin-top: 17rem;
+  display: inline-block;
+  background-color: #910002;
+}
+.home__advantages__rectangle .home__advantages__eclips {
+  width: 15rem;
+  height: 15rem;
+  margin: 3rem 4.5rem 8rem 4.5rem;
+  background-color: #F7F8FA;
+  border-radius: 50%;
+}
+.home__advantages__rectangle .home__advantages__eclips img {
+  margin: 3rem 4rem;
+}
+.home__advantages__rectangle .home__advantages__eclips span {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+  font-size: 2.4rem;
+  color: #F7F8FA;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.home {
+  width: auto;
+  height: 102.4rem;
+  background-image: url("/img/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.home__header__menu {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 73.7rem;
+  height: 12rem;
+  padding-right: 12.8rem;
+}
+.home__header__menu a {
+  display: flex;
+  align-items: flex-end;
+  font-size: 2.2rem;
+  padding: 0 1.5rem 2.6rem 1.5rem;
+  color: #F7F8FA;
+  font-family: "Roboto";
+}
+.home__header__menu a:hover {
+  text-decoration: none;
+  color: #F7F8FA;
+  width: auto;
+  height: 12rem;
+  background-color: #910002;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 0.2rem;
+  transition: 0.3s;
+}
+.home__header__contacts {
+  padding: 4rem 7rem;
+}
+.home__header__contacts a {
+  font-size: 2.2rem;
+  color: #F7F8FA;
+  font-family: "Roboto";
+}
+.home__header__contacts a:hover {
+  text-decoration: none;
+  color: #F7F8FA;
+}
+.home__header__contacts img {
+  margin-top: -1rem;
+  padding-left: 1rem;
+}
+.home__header__contacts .home__mail__icon {
+  padding-left: 2rem;
+}
+.home__text h1 {
+  font-size: 94px;
+  color: #F7F8FA;
+  font-family: "Roboto";
+  padding-top: 20rem;
+}
+.home__text button {
+  margin-top: 11rem;
+  width: 38rem;
+  height: 6rem;
+  background-color: #910002;
+  border-radius: 0.2rem;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2.4rem;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #F7F8FA;
+}
+.hero__blok {
+  margin-top: 30rem;
+}
+.hero__blok__photo {
+  width: 45rem;
+  height: 60rem;
+  background-color: #910002;
+}
+.hero__blok__photo img {
+  padding-left: 1.5rem;
+}
+.hero__blok__text {
+  padding: 13rem 0 0 12rem;
+}
+.hero__blok__text h2 {
+  font-size: 2.2rem;
+  color: #910002;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.hero__blok__text span {
+  font-size: 3rem;
+  color: #1C1C1C;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.hero__blok__text span .hero__blok__text-red {
+  color: #910002;
+}
+.hero__blok__text p {
+  margin-top: 3.7rem;
+  font-size: 1.4rem;
+  color: #1C1C1C;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.hero__blok button {
+  margin-top: 6rem;
+}
+.hero__blok__element {
+  margin-top: 18rem;
+}
+.services__main {
+  margin-top: 20rem;
+}
+.services__main__text {
+  text-align: center;
+}
+.services__main__text h2 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 4.4rem;
+  color: #1C1C1C;
+}
+.services__main__text h2 .services__text__title-red {
+  color: #910002;
+  font-weight: bold;
+  font-size: 4.4rem;
+}
+.services__main__text p {
+  margin-top: 2.5rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+.services__main__rectangle {
+  margin-top: 14rem;
+  width: 35rem;
+  height: 12rem;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #1C1C1C;
+  border: 0.2rem solid #910002;
+}
+.services__main__rectangle__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -4.1rem 13rem 0rem 13rem;
+  width: 8.3rem;
+  height: 8.3rem;
+  border: 0.2rem solid #910002;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.services__main__rectangle__circle img {
+  width: auto;
+  height: 5.5rem;
+}
+.services__main__rectangle__title {
+  margin-top: 1.4rem;
+  font-size: 18px;
+}
+.services__main__rectangle__text {
+  font-size: 14px;
+}
+.services__main__effect {
+  text-align: center;
+  margin-top: 15rem;
+}
+.services__main__effect img {
+  width: auto;
+  height: 14.5rem;
+  transform: rotate(31.86deg);
+}
+.news__section {
+  margin-top: 15rem;
+}
+.news__section__title {
+  text-align: center;
+}
+.news__section__title h2 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 44px;
+}
+.news__section__title h2 .news__section__title__text-red {
+  color: #910002;
+}
+.news__section__article {
+  margin-top: 9rem;
+  width: 35.4rem;
+  height: 34.3rem;
+  background-color: #F7F8FA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+.news__section__article__footer {
+  padding: 1.9rem 1.4rem 1rem 1.7rem;
+}
+.news__section__article__footer h2 {
+  font-size: 18px;
+  color: #910002;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.news__section__article__footer p {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 12px;
+  color: #1C1C1C;
+}
+.news__section__article__footer__span {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 10px;
+  color: #910002;
+}
+.news__section__button {
+  margin-top: 8.5rem;
+  text-align: center;
+}
+.footer {
+  margin-top: 20rem;
+  width: auto;
+  height: 70rem;
+  background-color: #5B0001;
+}
+.footer__section__menu {
+  display: flex;
+  margin-top: -17rem;
+  width: auto;
+  height: 52.5rem;
+  box-shadow: 0px 4px 4px #000000;
+}
+.footer__section__menu__consultation {
+  padding: 4rem 3rem 0 6.6rem;
+  width: 55rem;
+  height: 52.5rem;
+  background-color: #910002;
+}
+.footer__section__menu__consultation h2 {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 2.6rem;
+  color: #F7F8FA;
+}
+.footer__section__menu__consultation p {
+  margin-top: 1.4rem;
+  margin-bottom: 3.5rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #F7F8FA;
+}
+.footer__section__menu__consultation textarea {
+  margin-bottom: 1.8rem;
+  padding-left: 3rem;
+  background-color: transparent;
+  border: solid 0.1rem black;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(247, 248, 250, 0.65);
+}
+.footer__section__menu__consultation button {
+  width: 12.6rem;
+  height: 5.5rem;
+  background-color: #1C1C1C;
+  color: #F7F8FA;
+  border: none;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer__section__menu__timework {
+  padding: 7rem 0 0 6.6rem;
+  width: 56rem;
+  height: 52.5rem;
+  background-color: #A8B56B;
+}
+.footer__section__menu__timework__phone {
+  padding-top: 3.5rem;
+}
+.footer__section__menu__timework__mail {
+  padding-top: 3.5rem;
+}
+.footer__section__menu__timework__subscription {
+  display: flex;
+  padding-top: 7.5rem;
+}
+.footer__section__menu__timework a {
+  padding: 0.6rem 0 0 1rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}
+.footer__section__menu__timework h2 {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+.footer__section__menu__timework img {
+  display: inline-block;
+  margin-top: -1rem;
+}
+.footer__section__menu__timework textarea {
+  padding-left: 1.5rem;
+  background-color: transparent;
+  border: solid 0.1rem black;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(28, 28, 28, 0.65);
+}
+.footer__section__menu__timework button {
+  margin-left: 2.6rem;
+  width: 17.3rem;
+  height: 5.5rem;
+  background-color: #1C1C1C;
+  color: #F7F8FA;
+  border: none;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+}
+.footer__section__menu__timework span {
+  padding: 0.5rem 0 0 1rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+}
+.footer__section__social {
+  margin: 8.8rem 0 12.2rem 0;
+  text-align: center;
+}
+.footer__section__social h2 {
+  margin-bottom: 1.6rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 18px;
+  color: #F7F8FA;
+}
+.footer__section__social a {
+  margin: 0 0.4rem;
+}
+.footer__section__signature {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.2rem solid rgba(247, 248, 250, 0.7);
+}
+.footer__section__signature span {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: rgba(247, 248, 250, 0.7);
+}
+@media (max-width: 991px) {
+  .home__advantages__rectangle {
+    margin-top: 8rem;
+    border: 0.2rem solid #1C1C1C;
+    border-radius: 0.5rem;
+  }
+  .home__header__menu {
+    width: 73.7rem;
+    height: 10rem;
+  }
+  .home__header__contacts {
+    margin: 0 6rem;
+  }
+  .home__text h1 {
+    padding-top: 2rem;
+  }
+  .home__text button {
+    margin-top: 6rem;
+  }
+  .hero__blok {
+    margin-top: 3rem;
+  }
+  .hero__blok__photo {
+    width: 26rem;
+    height: 35rem;
+    background-color: #910002;
+  }
+  .hero__blok__photo img {
+    padding-left: 1rem;
+    width: auto;
+    height: 35rem;
+  }
+  .hero__blok__text {
+    padding: 0rem 0 0 2rem;
+  }
+  .hero__blok__element {
+    margin-top: -7rem;
+  }
+  .services__main__rectangle {
+    text-align: center;
+    margin: 7rem auto;
+  }
+  .news__section__article {
+    text-align: center;
+    margin: 5rem auto;
+  }
+  .footer__section__menu {
+    width: 100%;
+    height: 75%;
+  }
+  .footer__section__menu__consultation {
+    width: 50%;
+    height: 100%;
+    padding: 2rem 1.5rem 0 3rem;
+  }
+  .footer__section__menu__consultation h2 {
+    font-size: 1.5rem;
+  }
+  .footer__section__menu__consultation p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+  }
+  .footer__section__menu__consultation textarea {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .footer__section__menu__consultation button {
+    width: 12.6rem;
+    height: 5.5rem;
+    font-size: 1.5rem;
+  }
+  .footer__section__menu__timework {
+    width: 50%;
+    height: 100%;
+    padding-left: 2rem;
+  }
+  .footer__section__menu__timework a {
+    padding: 0.6rem 0 0 1rem;
+    font-size: 1.2rem;
+  }
+  .footer__section__menu__timework h2 {
+    font-size: 1.2rem;
+  }
+  .footer__section__menu__timework img {
+    margin-top: -1rem;
+  }
+  .footer__section__menu__timework textarea {
+    padding-left: 1rem;
+    font-size: 1.2rem;
+  }
+  .footer__section__menu__timework button {
+    margin-left: 1rem;
+    width: 17.3rem;
+    height: 5.5rem;
+    font-size: 1.2rem;
+  }
+  .footer__section__menu__timework span {
+    padding: 0.5rem 0 0 1rem;
+    font-size: 1.2rem;
+  }
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'), url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'), url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
