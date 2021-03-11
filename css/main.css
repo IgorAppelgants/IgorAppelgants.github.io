@@ -1,6 +1,10 @@
 html {
+  overflow-x: hidden;
   font-size: 10px;
   scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
 }
 .btn_read {
   padding: 2rem 4rem;
@@ -502,6 +506,83 @@ html {
   .footer__section__menu__timework span {
     padding: 0.5rem 0 0 1rem;
     font-size: 1.2rem;
+  }
+}
+@media (max-width: 767px) {
+  .home h1 {
+    font-size: 5rem;
+    padding-top: 2rem;
+  }
+  .home button {
+    margin-top: 3rem;
+    width: 25rem;
+    height: 4rem;
+    font-size: 1.7rem;
+  }
+  .home__header a {
+    font-size: 1.5rem;
+  }
+  .home__header a:hover {
+    width: auto;
+    height: auto;
+  }
+  .home__header__menu {
+    margin: 0;
+    padding: 0;
+    width: 48rem;
+    height: auto;
+  }
+  .home__header__contacts {
+    padding: 0.7rem;
+    text-align: center;
+  }
+  .home__advantages {
+    margin: 0;
+    text-align: center;
+  }
+  .home__advantages__rectangle {
+    width: 20rem;
+    height: 22rem;
+  }
+  .home__advantages__rectangle .home__advantages__eclips {
+    width: 14rem;
+    height: 14rem;
+    margin: 1.5rem 2.5rem 4rem 3rem;
+    background-color: #F7F8FA;
+    border-radius: 50%;
+  }
+  .home__advantages__rectangle .home__advantages__eclips img {
+    margin: 1.4rem 2rem;
+    width: auto;
+    height: 10rem;
+  }
+  .home__advantages__rectangle .home__advantages__eclips span {
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+  }
+  .hero__blok__photo {
+    display: none;
+  }
+  .hero__blok__text {
+    margin-top: 20rem;
+  }
+  .hero__blok__element {
+    display: none;
+  }
+  .footer__section__menu {
+    width: 100%;
+    height: 75%;
+  }
+  .footer__section__menu__consultation {
+    padding: 7rem 1rem;
+  }
+  .footer__section__menu__consultation textarea {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+  .footer__section__menu__consultation button {
+    margin-top: 2rem;
   }
 }
 @font-face {

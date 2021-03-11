@@ -1,0 +1,688 @@
+html {
+  overflow-x: hidden;
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+// colors settings//
+
+@vinous: #910002;
+@bolotny: #A8B56B;
+@color-text: #F7F8FA;
+@color-text-titel: #1C1C1C;
+@color-green: #A8B56B;
+
+// button settings//
+.btn_read {
+  padding: 2rem 4rem;
+  background-color: @vinous;
+  border-radius: 0.2rem;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: @color-text;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+// advantages settings//
+.home__advantages__rectangle {
+  width: 25rem;
+  height: 26rem;
+  margin-top: 17rem;
+  display: inline-block;
+  background-color: @vinous;
+  .home__advantages__eclips {
+    width: 15rem;
+    height: 15rem;
+    margin: 3rem 4.5rem 8rem 4.5rem;
+    background-color: @color-text;
+    border-radius: 50%;
+    img {
+      margin: 3rem 4rem;
+    }
+    span {
+      display: flex;
+      justify-content: center;
+      margin-top: 1.5rem;
+      font-size: 2.4rem;
+      color: @color-text;
+      font-weight: bold;
+      font-family: "Roboto";
+    }
+  }
+}
+
+// home settings//
+.home {
+  width: auto;
+  height: 102.4rem;
+  background-image: url("/img/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  &__header {
+    &__menu {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      width: 73.7rem;
+      height: 12rem;
+      padding-right: 12.8rem;
+      a {
+        display: flex;
+        align-items: flex-end;
+        font-size: 2.2rem;
+        padding: 0 1.5rem 2.6rem 1.5rem;
+        color: @color-text;
+        font-family: "Roboto";
+        &:hover {
+          text-decoration: none;
+          color: @color-text;
+          width: auto;
+          height: 12rem;
+          background-color: @vinous;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75); 
+          border-radius: 0.2rem;
+          transition: 0.3s;
+        }
+      }
+    }
+    &__contacts {
+      padding: 4rem 7rem;
+      a {
+        font-size: 2.2rem;
+        color: @color-text;
+        font-family: "Roboto";
+        &:hover {
+          text-decoration: none;
+          color: @color-text;
+        }
+      }
+      img {
+        margin-top: -1rem;
+        padding-left: 1rem;
+      }
+      .home__mail__icon {
+        padding-left: 2rem;
+      }
+    } 
+  }
+  &__text {
+    h1 {
+      font-size: 94px;
+      color: @color-text;
+      font-family: "Roboto";
+      padding-top: 20rem;
+    }
+    button {
+      margin-top: 11rem;
+      width: 38rem;
+      height: 6rem;
+      background-color: @vinous;
+      border-radius: 0.2rem;
+      border: none;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+      font-size: 2.4rem;
+      font-weight: bold;
+      font-family: "Roboto";
+      color: @color-text;
+    }
+  }
+}
+
+// hero settings//
+.hero {
+  &__blok {
+    margin-top: 30rem;
+    &__photo{
+      width: 45rem;
+      height: 60rem;
+      background-color: @vinous;
+      img {
+        padding-left: 1.5rem;
+      }
+    }
+    &__text {
+      padding: 13rem 0 0 12rem;
+      h2 {
+        font-size: 2.2rem;
+        color: @vinous;
+        font-family: "Roboto";
+        font-weight: bold;
+      }
+      span {
+        font-size: 3rem;
+        color: @color-text-titel;
+        font-family: "Roboto";
+        font-weight: bold;
+        .hero__blok__text-red {
+          color:@vinous ;
+        }
+      }
+      p {
+        margin-top: 3.7rem;
+        font-size: 1.4rem;
+        color: @color-text-titel;
+        font-family: "Roboto";
+        font-weight: bold;
+      }
+    }
+    button {
+      margin-top: 6rem;
+    }
+    &__element {
+      margin-top: 18rem;
+    }
+  }
+}
+
+// services settings //
+.services {
+  &__main {
+    margin-top: 20rem;
+    &__text {
+      text-align: center;
+      h2 {
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 4.4rem;
+        color: @color-text-titel;
+        .services__text__title-red {
+          color:@vinous;
+          font-weight: bold;
+          font-size: 4.4rem;
+        }
+      }
+      p {
+        margin-top: 2.5rem;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 2.4rem;
+      }
+    }
+    &__rectangle {
+      margin-top: 14rem;
+      width: 35rem;
+      height: 12rem;
+      text-align: center;
+      font-family: "Roboto";
+      font-weight: bold;
+      color: @color-text-titel;
+      border: 0.2rem solid @vinous;
+      &__circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -4.1rem 13rem 0rem 13rem;
+        width: 8.3rem;
+        height: 8.3rem;
+        border: 0.2rem solid @vinous;
+        border-radius: 50%;
+        background-color: #fff;
+        img {
+          width: auto;
+          height: 5.5rem;
+        }
+      }
+      &__title {
+        margin-top: 1.4rem;
+        font-size: 18px;
+      }
+      &__text {
+        font-size: 14px;
+      }
+    }
+    &__effect {
+      text-align: center;
+      margin-top: 15rem;
+      img {
+        width: auto;
+        height: 14.5rem;
+        transform: rotate(31.86deg);
+      }
+    }
+  }
+}
+
+// news settings //
+.news {
+  &__section {
+    margin-top: 15rem;
+    &__title {
+      text-align: center;
+      h2 {
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 44px;
+        .news__section__title__text-red {
+          color: @vinous;
+        }
+      }
+    }
+    &__article {
+      margin-top: 9rem;
+      width: 35.4rem;
+      height: 34.3rem;
+      background-color: #F7F8FA;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 3px;
+      &__footer {
+        padding: 1.9rem 1.4rem 1rem 1.7rem;
+        h2 {
+          font-size: 18px;
+          color: @vinous;
+          font-family: "Roboto";
+          font-weight: bold;
+        }
+        p {
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 12px;
+          color: @color-text-titel;
+        }
+        &__span {
+          display: flex;
+          justify-content: space-between;
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 10px;
+          color: @vinous;
+        }
+      }
+    }
+    &__button {
+      margin-top: 8.5rem;
+      text-align: center;
+    }
+  }
+}
+
+// footer settings //
+.footer {
+  margin-top: 20rem;
+  width: auto;
+  height: 70rem;
+  background-color: #5B0001;
+  &__section {
+    &__menu {
+      display: flex;
+      margin-top: -17rem;
+      width: auto;
+      height: 52.5rem;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+      &__consultation{
+        padding: 4rem 3rem 0 6.6rem;
+        width: 55rem;
+        height: 52.5rem;
+        background-color: @vinous;
+        h2 {
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 2.6rem;
+          color: @color-text;
+        }
+        p {
+          margin-top: 1.4rem;
+          margin-bottom: 3.5rem;
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 1.6rem;
+          color: @color-text;
+        }
+        textarea {
+          margin-bottom: 1.8rem;
+          padding-left: 3rem;
+          background-color: transparent;
+          border: solid 0.1rem black;
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 16px;
+          color: rgba(247, 248, 250, 0.65);
+        }
+        button {
+          width: 12.6rem;
+          height: 5.5rem;
+          background-color: #1C1C1C;
+          color: @color-text;
+          border: none;
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 16px;
+        }
+      }
+      &__timework {
+        padding: 7rem 0 0 6.6rem;
+        width: 56rem;
+        height: 52.5rem;
+        background-color: @color-green;
+        &__phone {
+          padding-top: 3.5rem;
+        }
+        &__mail {
+          padding-top: 3.5rem;
+        }
+        &__subscription {
+          display: flex;
+          
+          padding-top: 7.5rem;
+        }
+        a {
+          padding: 0.6rem 0 0 1rem;
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 20px;
+          color: #000000;
+        }
+        h2 {
+          font-family: "Roboto";
+          font-size: 14px;
+          font-weight: bold;
+          color: #000000;
+        }
+        img {
+          display: inline-block;
+          margin-top: -1rem;
+        }
+        textarea {
+          padding-left: 1.5rem;
+          background-color: transparent;
+          border: solid 0.1rem black;
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 16px;
+          color: rgba(28, 28, 28, 0.65);
+        }
+        button {
+          margin-left: 2.6rem;
+          width: 17.3rem;
+          height: 5.5rem;
+          background-color: #1C1C1C;
+          color: @color-text;
+          border: none;
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 16px;
+        }
+        span {
+          padding: 0.5rem 0 0 1rem;
+          font-family: "Roboto";
+          font-weight: bold;
+          font-size: 20px;
+        }
+      }
+    }
+    &__social {
+      margin: 8.8rem 0 12.2rem 0;
+      text-align: center;
+      h2 {
+        margin-bottom: 1.6rem;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 18px;
+        color: @color-text;
+      }
+      a {
+        margin: 0 0.4rem;
+      }
+    }
+    &__signature {
+      display: flex;
+      justify-content: space-between;
+      border-top: 0.2rem solid rgba(247, 248, 250, 0.7);
+      span {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        color: rgba(247, 248, 250, 0.7);
+      }
+    }
+  }
+}
+
+// adaptiv//
+
+
+
+@media(max-width: 991px) {
+  
+  .home__advantages__rectangle {
+  margin-top: 8rem;
+  border: 0.2rem solid  @color-text-titel;
+  border-radius: 0.5rem;
+  }
+
+  .home {
+    &__header {
+      &__menu {
+        width: 73.7rem;
+        height: 10rem;
+      }
+      &__contacts {
+        margin: 0 6rem;
+      }
+    }
+    &__text {
+       h1 {
+        padding-top: 2rem; 
+       }
+       button {
+        margin-top: 6rem;
+       }
+    }
+  }
+  .hero {
+    &__blok {
+      margin-top: 3rem;
+      &__photo{
+        width: 26rem;
+        height: 35rem;
+        background-color: @vinous;
+        img {
+          padding-left: 1rem;
+          width: auto;
+          height: 35rem;
+        }
+      }
+      &__text {
+        padding: 0rem 0 0 2rem;
+      }
+      &__element {
+        margin-top: -7rem;
+      }
+    }
+  }
+  .services {
+    &__main {
+      &__rectangle {
+        text-align: center;
+        margin: 7rem auto;
+      }
+    }
+  }
+  .news {
+    &__section {
+      &__article {
+        text-align: center;
+        margin: 5rem auto;
+      }
+    }
+  }
+  
+  .footer {
+    &__section {
+      &__menu {
+        width: 100%;
+        height: 75%;
+        &__consultation {
+          width: 50%;
+          height: 100%;
+          padding: 2rem 1.5rem 0 3rem;
+          h2 {
+            font-size: 1.5rem;
+          }
+          p {
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+            font-size: 1rem;
+          }
+          textarea {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            font-size: 1.2rem;
+          }
+          button {
+            width: 12.6rem;
+            height: 5.5rem;
+            font-size: 1.5rem;
+          }
+        }
+        &__timework {
+          width: 50%;
+          height: 100%;
+          padding-left: 2rem;
+          a {
+            padding: 0.6rem 0 0 1rem;
+            font-size: 1.2rem;
+          }
+          h2 {
+            font-size: 1.2rem;
+          }
+          img {
+            margin-top: -1rem;
+          }
+          textarea {
+            padding-left: 1rem;
+            font-size: 1.2rem;
+          }
+          button {
+            margin-left: 1rem;
+            width: 17.3rem;
+            height: 5.5rem;
+            font-size: 1.2rem;
+          }
+          span {
+            padding: 0.5rem 0 0 1rem;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 767px) {
+  .home {
+    h1 {
+      font-size: 5rem;
+      padding-top: 2rem;
+    }
+    button {
+      margin-top: 3rem;
+      width: 25rem;
+      height: 4rem;
+      font-size: 1.7rem;
+    }
+    &__header {
+      a {
+        font-size: 1.5rem;
+        &:hover {
+          width: auto;
+          height: auto;
+        }
+      }
+      &__menu {
+        margin: 0;
+        padding: 0;
+        width: 48rem;
+        height: auto;
+      }
+      &__contacts {
+        padding: 0.7rem;
+        text-align: center;
+      }
+    }
+    &__advantages {
+      margin: 0;
+      text-align: center;
+      &__rectangle {
+        width: 20rem;
+        height: 22rem;
+        .home__advantages__eclips {
+          width: 14rem;
+          height: 14rem;
+          margin: 1.5rem 2.5rem 4rem 3rem;
+          background-color: @color-text;
+          border-radius: 50%;
+          img {
+            margin: 1.4rem 2rem;
+            width: auto;
+            height: 10rem;
+          }
+          span {
+            margin-top: 1.5rem;
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .hero {
+    &__blok {
+      &__photo {
+        display: none;
+      }
+      &__text {
+        margin-top: 20rem;
+      } 
+      &__element {
+        display: none;
+      }
+    }
+  }
+
+  .footer {
+    &__section {
+      &__menu {
+        width: 100%;
+        height: 75%;
+        &__consultation {
+          padding: 7rem 1rem;
+          textarea {
+            margin: 0;
+            padding: 0;
+            font-size: 0.9rem;
+          }
+          button {
+            margin-top: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+// fonts settings //
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+      url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+      url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
