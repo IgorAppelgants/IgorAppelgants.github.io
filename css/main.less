@@ -444,9 +444,6 @@ body {
 }
 
 // adaptiv//
-
-
-
 @media(max-width: 991px) {
   
   .home__advantages__rectangle {
@@ -659,6 +656,51 @@ body {
           }
           button {
             margin-top: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 575px) {
+  .home {
+    h1 {
+      font-size: 5rem;
+      padding-top: 2rem;
+    }
+    button {
+      margin-top: 3rem;
+      width: 25rem;
+      height: 4rem;
+      font-size: 1.7rem;
+    }
+    &__header {
+      a {
+        font-size: 1.2rem;
+      }
+      &__menu {
+        margin: 0;
+        padding: 0;
+        width: 39rem;
+        height: auto;
+      }
+      &__contacts {
+        display: flex;
+        padding: 0;        
+      }
+    }
+  }
+
+  .footer {
+    &__section {
+      &__menu {
+        &__consultation {
+          padding: 7rem 1rem;
+          textarea {
+            margin: 0;
+            padding: 0;
+            font-size: 0.7rem;
           }
         }
       }
